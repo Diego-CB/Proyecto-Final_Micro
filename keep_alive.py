@@ -1,8 +1,9 @@
 # ****************************************
+# Universidad del Valle de Guatemala
+# Programacion de microprocesadores
+#
 # Author: AllAwsome497
 # Modifier: Diego Cordova
-# Code taken from: Discord bot template in repl.it
-# Template URL: https://replit.com/@templates/Discordpy-bot-template-with-commands-extension
 # ****************************************
 
 # Libraries
