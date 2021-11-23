@@ -5,8 +5,8 @@
 * --------------------------------------------------------
 * Proyecto2.cu
 * --------------------------------------------------------
-* Implementacion de operaciones de reduccion en cuda
-* y Calculo de la media y porcentaje en un conjunto 
+* Implementacion de operaciones de reduccion en cuda.
+* Calculo de la media y porcentaje en un conjunto 
 * de datos.
 * --------------------------------------------------------
 * Autores:
@@ -18,6 +18,7 @@
 * --------------------------------------------------------
 */
 
+// Llamado a librerias
 #include <stdio.h>
 #include <stdlib.h>
 #include <cuda_runtime.h>
@@ -42,8 +43,10 @@ int main(void) {
     //int SIZE2 = 15000;
 
     //--- Stream management ---
+
     //Object creation
     cudaStream_t stream1, stream2;
+    
     //Stream initialization
     cudaStreamCreate(&stream1);
     cudaStreamCreate(&stream2);	
@@ -60,6 +63,7 @@ int main(void) {
 
     cudaHostAlloc((void**)&c1,SIZE1*sizeof(int), cudaHostAllocDefault);
 
+    // Definicion de variables
     int i = 0;
     int s = 0;
     int temp;
@@ -73,6 +77,7 @@ int main(void) {
         s += temp;
     }
 
+    // Impresion de suma
     printf("\nSuma esperada: %d\n\n", s);
 
 
