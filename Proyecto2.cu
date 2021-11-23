@@ -10,9 +10,9 @@
 * de datos.
 * --------------------------------------------------------
 * Autores:
-*   - Diego Cordova, 20212
-*   - Alejandro Gomez, 20347
-*   - Paola de Leon, 20361
+*   - Diego Cordova,    20212
+*   - Alejandro Gomez,  20347
+*   - Paola de Leon,    20361
 * 
 * Fecha de modificacion: 2021/11/22
 * --------------------------------------------------------
